@@ -75,8 +75,16 @@ public class Ball
 	{
 		return colour;
 	}
-
-
+	
+	/**
+	 * Alters color of ball object. 
+	 * Accepts String argument.
+	 */
+	
+	public void altCol(String col) {
+		colour = col; 
+	}
+	
 	public Ball(double x, double y, double diameter, String col)
 	{
 		xPosition = x;
